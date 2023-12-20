@@ -33,7 +33,6 @@ namespace CloudCustomers.UnitTests.Systems.Services
         public async Task GetAllUsers_WhenCalled_ReturnsListOfUsers()
         {
             // Arrange
-            var expectedResponse = UsersFixture.GetTestUsers();
             var handlerMock = MockHttpMessageHandler<User>.SetupReturn404();
             var httpClient = new HttpClient(handlerMock.Object);
             var sut = new UsersService(httpClient);
