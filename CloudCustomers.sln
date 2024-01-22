@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudCustomers.UnitTests", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudCustomers.API", "src\CloudCustomers.API\CloudCustomers.API.csproj", "{198E31B5-80B6-4C24-9098-FC304B7A88AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCustomers.Lib", "src\CloudCustomers.Lib\CloudCustomers.Lib.csproj", "{9DA50EBC-8E25-499E-BE5F-CD66A2DF2D35}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{198E31B5-80B6-4C24-9098-FC304B7A88AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{198E31B5-80B6-4C24-9098-FC304B7A88AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{198E31B5-80B6-4C24-9098-FC304B7A88AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DA50EBC-8E25-499E-BE5F-CD66A2DF2D35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DA50EBC-8E25-499E-BE5F-CD66A2DF2D35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DA50EBC-8E25-499E-BE5F-CD66A2DF2D35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DA50EBC-8E25-499E-BE5F-CD66A2DF2D35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +38,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{772F1CAC-6801-489A-B063-1AD79D2E9DCB} = {72D5BAA9-02BF-4A07-AA21-80005865FDFA}
 		{198E31B5-80B6-4C24-9098-FC304B7A88AF} = {E5043095-A735-4634-9EDC-2DCF4CE3C326}
+		{9DA50EBC-8E25-499E-BE5F-CD66A2DF2D35} = {E5043095-A735-4634-9EDC-2DCF4CE3C326}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADF56102-E619-41D7-905C-115B1141EE2D}
 	EndGlobalSection
 EndGlobal
